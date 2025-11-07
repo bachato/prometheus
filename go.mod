@@ -15,6 +15,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.31.17
 	github.com/aws/aws-sdk-go-v2/credentials v1.18.21
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.262.0
+	github.com/aws/aws-sdk-go-v2/service/ecs v1.67.2
 	github.com/aws/aws-sdk-go-v2/service/lightsail v1.50.4
 	github.com/aws/aws-sdk-go-v2/service/sts v1.39.1
 	github.com/aws/smithy-go v1.23.2
@@ -60,7 +61,7 @@ require (
 	github.com/prometheus/common v0.67.2
 	github.com/prometheus/common/assets v0.2.0
 	github.com/prometheus/exporter-toolkit v0.15.0
-	github.com/prometheus/sigv4 v0.2.1
+	github.com/prometheus/sigv4 v0.3.0
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.35
 	github.com/shurcooL/httpfs v0.0.0-20230704072500-f1e31cf0ba5c
 	github.com/stackitcloud/stackit-sdk-go/core v0.17.3
