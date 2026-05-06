@@ -507,7 +507,7 @@ func lexStatements(l *Lexer) stateFn {
 			l.emit(COLON)
 			l.gotColon = true
 			return lexStatements
-		case 's', 'S', 'm', 'M':
+		case 's', 'S', 'm', 'M', 'r', 'R':
 			if l.scanDurationKeyword() {
 				return lexStatements
 			}
